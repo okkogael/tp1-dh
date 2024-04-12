@@ -10,5 +10,12 @@ a{
 body{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
 
+.fondo-menu{
+    background-size: cover;
+    height: 100%;
 
+}
