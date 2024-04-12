@@ -19,3 +19,8 @@ li{
     background-image:url("../images/fondo.jpg") ;
     height: 100vh;
 }
+header{
+    height:15%;
+    width: 100%;
+    background-color: aquamarine;
+}
