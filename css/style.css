@@ -1,1 +1,21 @@
+/* Estilos generales */ 
 
+html{
+    font-family: system-ui;
+}
+a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.fondo-menu{
+    background-size: cover;
+    background-image:url("../images/fondo.jpg") ;
+    height: 100vh;
+}
