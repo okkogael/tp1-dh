@@ -16,6 +16,6 @@ li{
 
 .fondo-menu{
     background-size: cover;
-    height: 100%;
-
+    background-image:url("../images/fondo.jpg") ;
+    height: 100vh;
 }
