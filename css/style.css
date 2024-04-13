@@ -93,11 +93,11 @@ input:valid ~label{
 
 .contenedor-input-login input{
     width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: transparent;
     border: none;
     outline: none;
-    font-size: 10px;
+    font-size: 15px;
     padding: -1 35px 0 5px;
     color: #fff;
 }
@@ -106,7 +106,7 @@ input:valid ~label{
     position: absolute;
     color: #fff;
     font-size: 22px;
-    top: 19px;  
+    top: 0.5px;  
     right: 8px;
 }
 .olvidar{
@@ -129,7 +129,7 @@ input:valid ~label{
     font-size: 12px;
 } 
 
-.olvidar label a:hover{
+.olvidar label a:hover{  /*hover se aplica cuando un usuario pasa el cursor sobre un enlace */
     text-decoration: underline;
 }
 button{
