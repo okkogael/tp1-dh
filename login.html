@@ -10,60 +10,48 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <div class="logo-header">
-                <img src="./images/Logo.png" alt="Logo CluckMarket" class="logo-imagen">
-            </div>
 
-            <div class="contenedor-nav-header">
-                <nav class="nav-header">
-                    <input type="checkbox" id="menu">
-                    <label for="menu" class="menu-1"></label>
-                    <ul class="menu-2">
-                        <li class="list-menu"><a
-                        href="file:///C:/Users/jonat/OneDrive/Escritorio/GitHub/tp1-dh/index.html">Inicio</a></li>
-                        <li class="list-menu"><a href="#tecnologia">Tecnología</a></li>
-                        <li class="list-menu"><a href="#indumentaria">Indumentaria</a></li>
-                        <li class="list-menu"><a href="#vehículos">Vehículos</a></li>
-                        <li class="list-menu"><a href="#hogarymuebles">Hogar y muebles</a></li>
-                        <li class="list-menu"><a
-                        href="file:///C:/Users/jonat/OneDrive/Escritorio/GitHub/tp1-dh/registro.html   ">Registrate</li>
-                        <li class="list-menu"><a
-                        href="file:///C:/Users/jonat/OneDrive/Escritorio/GitHub/tp1-dh/login.html">Ingresá</a>
-                        </li>
-                        <li class="list-menu"><a
-                        href="file:///C:/Users/jonat/OneDrive/Escritorio/GitHub/tp1-dh/carrito.html"
-                        id="boton-carrito">Carrito</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <section class="section-login">
+        <video autoplay muted loop id="fondo-section">
+            <source src="./images/fondo login.mp4" type="video/mp4">
+          </video>
+        <div class="contenedor-login">
+            <div class="form-login">
+                <form action="#" method="GET"></form>
+                    <h2>Iniciar Sesión</h2>
+                    
+                    <div class="contenedor-input-login">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    
+                    <div class="contenedor-input-login">
+                        <i class="bi bi-lock-fill"></i>
+                        <input type="password" required>
+                        <label for="#">Contraseña</label>
+                    </div>
 
-        </div>
-    </header>
+                    <div class="olvidar">
+                        <label for="#">
+                            <input type="checkbox"> Recordar
+                            <a href="#">Olvidé la contraseña</a>
+                        </label>
+                    </div>
+                </form>
+                <div>
+                    <button>Acceder</button>
 
-    <div class="fondo-menu"></div>
-    <h1>Bienvenidos a CluckMarket</h1>
-    <form action="" method="GET">
-        <div class="form-login">
-            <h1>Inicio de sesión</h1>
-            <label for="email">Email:</label>
-            <input id="email" type="text" name="email" value="">
+                    <div class="registrar">
+                        <p>No tengo cuenta <a href="#"> Crear una</a></p>
+                    </div>
+                </div>
+
+             </div>
         </div>
-        <div class="contraseña">
-            <label for="contraseña">Contraseña:</label>
-            <input type="text" name="contraseña" value="">
-        </div>
-        <input type="submit" value="Iniciar sesión" id="boton-ingresar">
-        <div class="recordar"><a
-                href="file:///C:/Users/jonat/OneDrive/Escritorio/GitHub/tp1-dh/rec-contrase%C3%B1a.html">¿Olvidó su
-                contraseña? </a></div>
-        <div class="registrarse">
-            <a href="file:///C:/Users/jonat/OneDrive/Escritorio/GitHub/tp1-dh/registro.html"
-                id="boton-registrarse">Crear cuenta</a>
-        </div>
-        </div>
-    </form>
+      
+
+    </section>
     <footer>
         <p>¿Necesitas ayuda? Contáctanos en <a href="">mail</a></p>
         <p>Integrantes:</p>
