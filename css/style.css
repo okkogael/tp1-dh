@@ -87,13 +87,12 @@ header{
 }
 
 .contenedor-input-login input:focus~label,
-.contenedor-input-login input:valid~label{
+.contenedor-input-login input:valid~label {
     top: -5px;
 }
 
-
 .contenedor-input-login input{
-    width: 100%;
+    width: 250px;
     height: 40px;
     background-color: transparent;
     border: none;
