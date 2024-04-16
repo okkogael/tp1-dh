@@ -26,7 +26,7 @@ header{
     background-color: aquamarine;
 }
 
-/* Estilos para la sección de inicio de sesión */
+/* Estilos para la página de inicio de sesión */ /* Tambien utilizamos estos estilos para registro */
 .section-login {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -40,7 +40,7 @@ header{
     
 }
 
-/* Estilos para el video de fondo del logi */
+/* Estilos para el video de fondo del login */
 #fondo-section {
     position: absolute;
     top: 0;
@@ -164,4 +164,6 @@ button:hover{
 .registrar p a:hover{
     text-decoration: underline;
 }
+
+
 
