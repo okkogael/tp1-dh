@@ -1,0 +1,206 @@
+/* Estilos generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.fondo-menu {
+    background-size: cover;
+    background-image: url("../images/fondo.jpg");
+    height: 100vh;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/* Estilos para la página de inicio de sesión */
+/* Tambien utilizamos estos estilos para registro */
+.section-login {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+/* Estilos para el video de fondo del login */
+#fondo-section {  /* porque tiene un 3 en frente? */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    /* video detrás del contenido */
+}
+
+
+.contenedor-login {
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-login h2 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor-input-login {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff
+}
+
+.contenedor-input-login label {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.contenedor-input-login input:focus~label,
+.contenedor-input-login input:valid~label {
+    top: -5px;
+}
+
+.contenedor-input-login input {
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.contenedor-input-login i {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    top: 0.5px;
+    right: 8px;
+}
+
+.olvidar {
+    margin: -15px 0 15px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.olvidar label {
+    margin: 3px;
+    font-weight: bold;
+}
+
+.olvidar label a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+.olvidar label a:hover {
+    /*hover se aplica cuando un usuario pasa el cursor sobre un enlace */
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    /* Redondear esquinas */
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+.registrar {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.registrar p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
+}
+
+/*pagina de categoria*/
+
+.image{
+height: 50%;
+width: auto;
+}
+.candy div{
+
+   display: flex;
+   background-color: aqua
+   
+}
+
+/*carrito*/
+
+.cart{
+    border: 2px;
+    border-color: blue;
+    background: tomato;
+    display: flex;
+    flex-wrap: wrap;}
+
+    .cartProducts div section {
+        color: blue;
+    }
