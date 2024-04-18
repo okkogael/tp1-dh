@@ -45,7 +45,7 @@ header {
 }
 
 /* Estilos para el video de fondo del login */
-#fondo-section {
+#fondo-section {  /* porque tiene un 3 en frente? */
     position: absolute;
     top: 0;
     left: 0;
@@ -177,4 +177,11 @@ button:hover {
 
 .registrar p a:hover {
     text-decoration: underline;
+}
+
+/*pagina de categoria*/
+
+.candy div{
+   display: flex;
+   background-color: aqua
 }
