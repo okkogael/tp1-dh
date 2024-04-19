@@ -231,66 +231,6 @@ button:hover {
 
 /*Detalle*/
 
-.main-detalle{
-    font-family:'Poppins', sans-serif;
-}
-
-
-.contenedor-categoria{
-    position: relative;
-    top:20px ;
-    padding: 30px;
-    color: #fff;
-    backdrop-filter: blur(15px);
-    margin-bottom: 50px;
-    background-color: transparent;  
-}
-
-#fondo-detalle {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; /* Para que esté detrás del contenido */
-}
-
-.boton-carrito{
-    width: 170px;
-}
-
-.main-detalle {
-    display: flex;
-    flex-direction: column; 
-  }
-  
-  .contenedor-img {
-    align-self: flex-start; 
-    position: relative;
-    right: -5%;
-  }
-  
-  .contenedor-nombre-producto,
-  .contenedor-precio-producto,
-  .contenedor-agregar-carrito,
-  .contendor-descripcion {
-    align-self: center;
-    position: relative;
-    top: -390px;
-    right: -8%;
-  }
-
-  .contenedor-nombre-producto{
-    color: #fff
-  }
-
-  .contenedor-precio-producto{
-    color: #fff
-  }
-
-  .contendor-descripcion{
-    color: #fff;
-  }
 
 
 
