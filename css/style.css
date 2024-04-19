@@ -183,22 +183,40 @@ button:hover {
 /*pagina de categoria*/
 
 .image {
-    height: 50%;
+    height: 20%;
     width: auto;
 }
 
-.candy div {
-
-    display: flex;
-    background-color: aqua
-}
-
 /*carrito*/
+.seaweed{
+    padding: 20px;
+    display: flex;
+    background-color: yellow;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.temp{
+    margin: 70px;
+    display: flex;
+    text-align: justify;
+}
 
 .cart {
     width: 60%;
-    margin-left: 70px;
     background: tomato;
+    z-index: -1;
     display: flex;
     flex-wrap: wrap;
+}
+
+.candy{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: aqua;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+   
 }
