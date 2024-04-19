@@ -231,7 +231,46 @@ button:hover {
 
 /*Detalle*/
 
+#fondo-detalle {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* video detrás del contenido */
+}
 
+.contenedor-precio-producto{
+    font-size: 50px;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+} 
+.contenedor-nombre-producto {
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+    color: #fff;
+}
+.contenedor-img {
+
+}
+
+.caja-padre-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+.section-detalle{
+    position: relative;
+    display: flex;color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 500px;
+    top: -500px;
+
+}
 
 
 
