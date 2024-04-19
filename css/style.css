@@ -245,10 +245,16 @@ button:hover {
     justify-content: flex-end;
     flex-direction: row-reverse;
 }
+/*categoria*/
+.potato{
+height: 50%;
 
+}
 .blueberry {
     background-color: azure;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*Detalle*/
