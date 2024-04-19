@@ -4,18 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 a {
     margin: 0;
     padding: 0;
 }
 
+
+
 body {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
+
 
 .fondo-menu {
     background-size: cover;
@@ -47,7 +55,7 @@ header {
 /* Estilos para el video de fondo del login */
 #fondo-section {
     /* porque tiene un 3 en frente? */
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -220,3 +228,76 @@ button:hover {
     align-items: center;
    
 }
+
+/*Detalle*/
+
+.main-detalle{
+    font-family:'Poppins', sans-serif;
+}
+
+
+.contenedor-categoria{
+    position: relative;
+    top:20px ;
+    padding: 30px;
+    color: #fff;
+    backdrop-filter: blur(15px);
+    margin-bottom: 50px;
+    background-color: transparent;  
+}
+
+#fondo-detalle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Para que esté detrás del contenido */
+}
+
+.boton-carrito{
+    width: 170px;
+}
+
+.main-detalle {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .contenedor-img {
+    align-self: flex-start; 
+    position: relative;
+    right: -5%;
+  }
+  
+  .contenedor-nombre-producto,
+  .contenedor-precio-producto,
+  .contenedor-agregar-carrito,
+  .contendor-descripcion {
+    align-self: center;
+    position: relative;
+    top: -390px;
+    right: -8%;
+  }
+
+  .contenedor-nombre-producto{
+    color: #fff
+  }
+
+  .contenedor-precio-producto{
+    color: #fff
+  }
+
+  .contendor-descripcion{
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
