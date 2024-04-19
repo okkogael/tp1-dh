@@ -45,7 +45,8 @@ header {
 }
 
 /* Estilos para el video de fondo del login */
-#fondo-section {  /* porque tiene un 3 en frente? */
+#fondo-section {
+    /* porque tiene un 3 en frente? */
     position: absolute;
     top: 0;
     left: 0;
@@ -181,26 +182,23 @@ button:hover {
 
 /*pagina de categoria*/
 
-.image{
-height: 50%;
-width: auto;
+.image {
+    height: 50%;
+    width: auto;
 }
-.candy div{
 
-   display: flex;
-   background-color: aqua
-   
+.candy div {
+
+    display: flex;
+    background-color: aqua
 }
 
 /*carrito*/
 
-.cart{
-    border: 2px;
-    border-color: blue;
+.cart {
+    width: 60%;
+    margin-left: 70px;
     background: tomato;
     display: flex;
-    flex-wrap: wrap;}
-
-    .cartProducts div section {
-        color: blue;
-    }
+    flex-wrap: wrap;
+}
