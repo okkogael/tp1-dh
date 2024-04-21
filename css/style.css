@@ -318,14 +318,18 @@ button:hover {
 
 /*categoria*/
 .potato {
-    width: 50%;
+    margin: 6px;
     display: flex;
     border: 2px solid white;
     color: white;
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
 }
 
 .coco {
-    width: 70%;
+    width: 450px;
 }
 
 .blueberry {
@@ -334,7 +338,24 @@ button:hover {
     flex-wrap: wrap;
     margin: 20px;
 }
-
+.snake{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.chip{    
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.toe{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
 /*Recuperar contraseña*/
 .mug {
     color: #fff;
