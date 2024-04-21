@@ -198,7 +198,6 @@ button:hover {
 
 /*carrito*/
 .seaweed {
-    padding: 20px;
     display: flex;
     border: 2px solid;
     background-color: transparent;
@@ -211,7 +210,6 @@ button:hover {
     flex-wrap: wrap;
     color: white;
     align-content: flex-start;
-    left: 150px;
     flex-direction: column;
     margin-left: 150px;
 }
@@ -223,7 +221,6 @@ button:hover {
 }
 
 .cart {
-    padding: 20px;
     border: 2px solid;
     background-color: transparent;
     backdrop-filter: blur(15px);
@@ -233,18 +230,90 @@ button:hover {
     z-index: -1;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    
 
 }
+.goose{
 
-.candy {
-
+}
+.giraffe{
+    padding-left: 10%;
+    padding-top: 4%;
+    font-size: 20px;
+    width: 71%;
+    word
+}
+.sand{
+    letter-spacing: 5px;
+    border: 1px solid white;
+    height: 20px;
+    padding-left: 7px;
+    margin-top: 20px;
+}
+.frog{
+    width: 70%;
+    padding-left: 29%;
+}
+.crock{
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.lab{
+    padding: 10px;
+    height: 100%;
     width: 100%;
-    height: 130px;
     display: flex;
-    margin: 20px;
+    flex-wrap: wrap;
+}
+.candy {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    padding: 20px;
     justify-content: flex-end;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    border: 2px solid white;
+}
+.butter{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: x-large;
+}
+.pearl{
+    font-size: 20px;
+    border: 2px solid white;
+    width: 550px
+    
+}
+.tooth{
+    width: 100%;
+    display: flex;
+    padding: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.clip{
+    width: 100%;
+}
+.cone{
+    display: flex;
+    justify-content: space-evenly;
+}
+.broom{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.twig{
+    text-decoration: none;
+    color: inherit;
 }
 
 /*categoria*/
