@@ -1,340 +1,308 @@
 /* Estilos generales */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh;
+    width: 280px;
+    background-color: black;
 }
 
-
-a {
-    margin: 0;
-    padding: 0;
+.contenedor-nav-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px; 
 }
 
+.contenedor-nav-header li{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 40px;
+    margin-left: -40px;
 
+}
+
+.list-menu a {
+    text-decoration: none;
+    color: black;
+}
+.logo-imagen {
+    width: 200px;
+    margin: 20px 0; /* Margen superior e inferior */
+}
 
 body {
-    text-decoration: none;
-}
-
-
-
-.fondo-menu {
-    background-size: cover;
-    background-image: url("../images/fondo.jpg");
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-}
-
-header {
-    height: 15%;
-    width: 100%;
-    background-color: aquamarine;
-}
-
-/* Estilos para la página de inicio de sesión */
-/* Tambien utilizamos estos estilos para registro */
-.section-login {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
+    color: red;
+}
+
+.formulario {
+    font-family: 'Roboto', sans-serif; /* Agregado */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    /*Figensen que no puede haber position relative */
-
+    width: px; /* Ajusta el ancho según sea necesario */
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para el video de fondo del login */
-#fondo-section {
-    /* porque tiene un 3 en frente? */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    /* video detrás del contenido */
-}
-
-
-.contenedor-login {
-    border: 2px solid rgba(255, 255, 255, .6);
-    border-radius: 20px;
-    backdrop-filter: blur(15px);
-    height: 450px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedor-login h2 {  
-    font-size: 25px;
-    color: #fff;
+.formulario h1 {
     text-align: center;
 }
 
-.contenedor-input-login {
-    position: relative;
-    margin: 30px 0;
-    border-bottom: 2px solid #fff
+.email,
+.password {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
-.contenedor-input-login label {
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 16px;
-    pointer-events: none;
-    font-weight: bold;
-    transition: .5s;
-}
-
-.contenedor-input-login input:focus~label,
-.contenedor-input-login input:valid~label {
-    top: -5px;
-}
-
-.contenedor-input-login input {
-    width: 250px;
-    height: 40px;
-    background-color: transparent;
+.email input,
+.password input {
+    flex: 1;
     border: none;
     outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.email label,
+.password label {
+    margin-left: 20px;
+}
+
+.start-login {
+    background-color: black;
+    color: red;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.olvidar,
+.registrarse {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.olvidar a,
+.registrarse a {
+    text-decoration: none;
+    color: black;
     font-size: 15px;
-    padding: 0 35px 0 5px;
-    color: #fff;
 }
 
-.contenedor-input-login i {
-    position: absolute;
-    color: #fff;
-    font-size: 22px;
-    top: 0.5px;
-    right: 8px;
+/* Página registro */
+
+.formulario2 {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.olvidar {
-    margin: -15px 0 15px;
-    font-size: 14px;
-    color: #fff;
+.terminos a {
+    text-decoration: none;
+    color: black;
+}
+
+.terminos input {
+    margin-top: 20px;
+}
+
+/* Página carrito */
+
+.carrito {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+    height: 100vh; /* Ajusta el alto de la página */
+    background-color: #f4f4f4;
+}
+
+.carrito h1 {
+    color: black;
+}
+
+.imagen-producto {
+    width: 200px;
+    height: 400px;
+    margin-top: 20px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.productos {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    background-color: red;
+    color: black;
+    margin: 0;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.name-price {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-price p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.p-precio {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-
-}
-
-.olvidar label {
-    margin: 3px;
+    align-items: center;
     font-weight: bold;
 }
 
-.olvidar label a {
-    color: #fff;
-    text-decoration: none;
-    transition: .3s;
-    font-size: 12px;
-    margin-left: 10px;
-
-}
-
-.olvidar label a:hover {
-    /*hover se aplica cuando un usuario pasa el cursor sobre un enlace */
-    text-decoration: underline;
-}
-
-button {
-    width: 100%;
-    height: 45px;
-    border-radius: 40px;
-    /* Redondear esquinas */
-    background: #fff;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 15px;
-    transition: .4s;
-}
-
-button:hover {
-    opacity: .9;
-}
-
-.registrar {
-    font-size: 12px;
-    color: #fff;
-    text-align: center;
-    margin: 20px 0 10px;
-}
-
-.registrar p a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: .3s;
-}
-
-.registrar p a:hover {
-    text-decoration: underline;
-}
-
-/*pagina de categoria*/
-
-.image {
-    height: 90%;
-    width: auto;
-}
-
-/*carrito*/
-.seaweed {
-    padding: 20px;
-    display: flex;
-    border: 2px solid;
-    background-color: transparent;
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    height: 30%;
-    width: 50%;
-    line-height: 3;
-    align-items: baseline;
-    flex-wrap: wrap;
+.comprar {
+    background-color: black;
     color: white;
-    align-content: flex-start;
-    left: 150px;
-    flex-direction: column;
-    margin-left: 150px;
-}
-
-.temp {
-    margin: 70px;
-    display: flex;
-    text-align: justify;
-}
-
-.cart {
-    padding: 20px;
-    border: 2px solid;
-    background-color: transparent;
-    backdrop-filter: blur(15px);
+    border: solid red 1px;
     border-radius: 10px;
-    width: 60%;
-    color: white;
-    z-index: -1;
+    width: 120px;
+    height: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+  /* Detalle de producto */  
+
+  .productos2 {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    background-color: red;
+    color: black;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-
-}
-
-.candy {
-
-    width: 100%;
-    height: 130px;
-    display: flex;
-    margin: 20px;
-    justify-content: flex-end;
-    flex-direction: row-reverse;
-}
-
-/*categoria*/
-.potato {
-    width: 50%;
-    display: flex;
-    border: 2px solid white;
-    color: white;
-}
-
-.coco {
-    width: 70%;
-}
-
-.blueberry {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 20px;
+
 }
 
-/*Recuperar contraseña*/
-.mug {
-    color: #fff;
-    background-color: orange;
-    border: 2px solid white;
+.contenedor-img2{
+    width: 500px;
     display: flex;
-    justify-content: center
 }
 
-/*Detalle*/
-
-.main-detalle {
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.contenedor-categoria {
-    position: relative;
-    top: 20px;
-    padding: 30px;
-    color: #fff;
-    backdrop-filter: blur(15px);
-    margin-bottom: 50px;
-    background-color: transparent;
-}
-
-#fondo-detalle {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    /* Para que esté detrás del contenido */
-}
-
-.boton-carrito {
-    width: 170px;
-}
-
-.main-detalle {
+.name-prices{
+    height: 400px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid 1px white;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.contenedor-img {
-    align-self: flex-start;
-    position: relative;
-    right: -5%;
+.p-precios{
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -10px;
+ 
 }
 
-.contenedor-nombre-producto,
-.contenedor-precio-producto,
-.contenedor-agregar-carrito,
-.contendor-descripcion {
-    align-self: center;
-    position: relative;
-    top: -390px;
-    right: -8%;
+
+.name-prices p{
+    font-size: 20px;
+    color: white;
+
+
+}   
+
+.imagen-producto2 {
+    width: 200px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
-.contenedor-nombre-producto {
-    color: #fff
+
+.boton-cart-detalle{  
+    background-color: black; 
+    height: 50px;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
 }
 
-.contenedor-precio-producto {
-    color: #fff
+.boton-cart-detalle a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
-.contendor-descripcion {
-    color: #fff;
+.descripcion-producto p{
+    font-size: 14px;
+    width: 200px;
+    margin-top: -10px;
 }
