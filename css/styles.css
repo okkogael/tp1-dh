@@ -351,6 +351,18 @@ h3{
     margin: 10px;
 }
 
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .productos2 {
+        justify-content: flex-start; 
+    }
+
+    .detalle-producto {
+        width: 90%; 
+        margin: 20px auto; 
+    }
+}
+
 /* Categoria */
 
 .menu-2 {
