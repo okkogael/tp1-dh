@@ -113,8 +113,30 @@ button.start-login {
     text-decoration: none;
 }
 
-/* Carrito */
+/* PÃĄgina registro */
 
+.formulario2 {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.terminos a {
+    text-decoration: none;
+    color: black;
+}
+
+.terminos input {
+    margin-top: 20px;
+}
+
+/* Carrito */
 
 .menu-2 {
     list-style-type: none;
@@ -201,6 +223,32 @@ button.start-login {
     background-color: #333;
 }
 
+
+/* Estilo responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .menu-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-menu {
+        margin: 5px;
+    }
+
+    .logo-imagen {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-img-carrito {
+        max-width: 150px;
+    }
+}
 
 /* detalle del producto */
 .menu-2 {
