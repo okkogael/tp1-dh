@@ -112,3 +112,91 @@ button.start-login {
 .registrarse {
     text-decoration: none;
 }
+
+/* Carrito */
+
+
+.menu-2 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.list-menu {
+    margin: 0 10px;
+}
+
+.list-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.logo-imagen {
+    width: 150px;
+}
+
+.carrito-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carrito-titulo {
+    margin-bottom: 20px;
+}
+
+.productos-carrito {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-img-carrito {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-producto-carrito {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.name-price-carrito {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.p-precio-carrito {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.comprar-carrito {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 150px;
+}
+
+.comprar-carrito:hover {
+    background-color: #333;
+}
