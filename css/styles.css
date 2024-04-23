@@ -15,3 +15,100 @@ header {
     align-items: center;
     margin-top: 20px;
 }
+
+/* Login */
+
+.body-login{
+
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: black;
+    
+}
+
+
+.formulario-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f2f2f2;
+}
+
+.formulario {
+    max-width: 400px; 
+    width: 100%; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.e-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.email,
+.password {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.email input,
+.password input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.email i,
+.password i {
+    margin-right: 10px;
+}
+
+button.start-login {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.olvidar,
+.registrarse {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.olvidar a,
+.registrarse a {
+    text-decoration: none;
+    color: #007bff;
+    color: black;
+}
+
+.olvidar,
+.registrarse {
+    text-decoration: none;
+}
