@@ -113,6 +113,29 @@ button.start-login {
     text-decoration: none;
 }
 
+/* PÃĄgina registro */
+
+.formulario2 {
+    font-family: 'Roboto', sans-serif; /* Agregado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.terminos a {
+    text-decoration: none;
+    color: black;
+}
+
+.terminos input {
+    margin-top: 20px;
+}
+
 /* Carrito */
 
 
