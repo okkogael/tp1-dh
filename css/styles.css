@@ -505,25 +505,24 @@ container {
   
   .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-flow: wrap;
   }
   
   .card {
-    width: 20%;
+    width: calc(20% - 20px); /* Ajusta el ancho de cada tarjeta y deja un espacio entre ellas */
+    height: auto;
+    margin-bottom: 20px; /* Espacio inferior entre las tarjetas */
     background: #fff;
     border: 1px solid #ccc;
-    margin-bottom: 50px;
     transition: 0.3s;
     border-radius: 5px;
   }
   
-  .card-header {
-    text-align: center;
-    padding: 50px 10px;
-    background: linear-gradient(to right, #ff9041, #ff4b2b);
-    color: #fff;
-    border-radius: 5px;
+  .card-header img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
   }
   
   .card-body {
@@ -536,7 +535,7 @@ container {
     display: block;
     color: #fff;
     text-align: center;
-    background: linear-gradient(to right, #ff9041, #ff4b2b);
+    background: linear-gradient(to right, black, black);
     text-decoration: none;
     margin-top: 30px;
     padding: 10px 5px;
